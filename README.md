@@ -22,7 +22,8 @@ A collection of papers and resources across three principal components of long d
 	  - [Unsupervised Abstractive Summarization](#uns-abs-summ)
 	  - [Unsupervised Extractive Summarization](#uns-abs-summ)
   - [Metrics](#metrics) 
-  
+  	  - [Relevance](#rel)
+	  - [Factual Consistency](#fact)
 - [Our Survey](#survey)
 
 
@@ -51,7 +52,7 @@ A collection of papers and resources across three principal components of long d
 | **BillSum** | 2019 | BillSum: A Corpus for Automatic Summarization of US Legislation [[Paper]](https://arxiv.org/abs/1910.00523) | Legislative |
 | **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
 
-<a name="Models" />
+<a name="models" />
 
 ## Long Document Models
 
@@ -108,9 +109,11 @@ A collection of papers and resources across three principal components of long d
 | **FAR** | 2021 | Facet-Aware Evaluation for Extractive Summarization `ACL-IJCNLP Findings` [[Paper]](https://aclanthology.org/2021.findings-acl.147/) | Graph Centrality Scoring |
 | **IBsumm** | 2021 | Leveraging Information Bottleneck for Scientific Document Summarization `EMNLP Findings` [[Paper]](https://arxiv.org/abs/2110.01280) | Pipeline Approach |
 
-<a name="Metrics" />
+<a name="metrics" />
 
-## Metrics 
+## Metrics
+
+<a name="rel" />
 
 ### Relevance
 |  **Metric**  | **Year** | **Title**                                       |                          **tl;dr**                           |
@@ -118,6 +121,8 @@ A collection of papers and resources across three principal components of long d
 |  **ROUGE**  | 2004 | ROUGE: A Package for Automatic Evaluation of Summaries `ACL` [[Paper]](https://aclanthology.org/W04-1013/) | Hard Lexical Matching |
 |  **BERTScore**  | 2019 | BERTScore: Evaluating Text Generation with BERT `ICLR` [[Paper]](https://arxiv.org/abs/1904.09675?context=cs) | Soft Lexical Matching | 
 | **BARTScore** | 2021 | BARTScore: Evaluating Generated Text as Text Generation `NeurIPS` [[Paper]](https://arxiv.org/abs/2106.11520) | Conditional Text Generation |
+
+<a name="fact" />
 
 ### Factual Consistency 
 |  **Metric**  | **Year** | **Title**                                       |                          **tl;dr**                           |
@@ -135,12 +140,12 @@ A collection of papers and resources across three principal components of long d
 | **FactGraph** | 2022 | FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations `NAACL` [[Paper]](https://arxiv.org/pdf/2204.06508.pdf) | Knowledge Graph | 
 
 
-<a name="Our Survey Work" />
+<a name="survey" />
 
 ## An Empirical Survey on Long Document Summarization
 Our survey work has been accepted by ACM Computing Surveys. For more information, please visit [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://dl.acm.org/doi/10.1145/3545176). 
 
-Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs and arXiv human annotated data is available. Please do not hesitate to contact me.
+Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs and arXiv human annotated data are available. Will be uploaded soon. Please do not hesitate to contact me.
 
 ```
 @article{10.1145/3545176,
