@@ -145,7 +145,7 @@ A collection of papers and resources across three principal components of long d
 ## An Empirical Survey on Long Document Summarization
 Our survey work has been accepted by ACM Computing Surveys. For more information, please visit [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://dl.acm.org/doi/10.1145/3545176). 
 
-Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs and arXiv human annotated data is available. Please do not hesitate to contact me.
+Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs and arXiv human annotated data are available. Will be uploaded soon. Please do not hesitate to contact me.
 
 ```
 @article{10.1145/3545176,
