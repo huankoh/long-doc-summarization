@@ -1,3 +1,161 @@
-# Long Document Summarization
+# An Empirical Survey on Long Document Summarization
 
-Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs (some require fine-tuning, Colab notebook is available) and arXiv human annotated data is also available. For any inquiry, please do not hesitate to contact me.
+A collection of papers and resources across three principal components of long document summarization: Datasets, Models and Metrics.
+
+**<u>To-do List :running: : <u>**
+
+- [ ] Y22 Dataset (Will be updated before: 20/07/22)
+- [ ] Y22 Models (Will be updated before: 20/07/22)
+- [ ] Y22 Metrics (Will be updated before: 20/07/22)
+- [ ] Other Settings (TBD)
+
+## Contents
+
+
+- [Fundamentals](#fundamentals)
+- [Papers](#papers)
+  - [Datasets](#datasets)
+  - [Models](#models)
+	  - [Abstractive Summarization](#abs-summ)
+	  - [Extractive Summarization](#ext-summ)
+	  - [Hybrid Summarization](#hybrid-summ)
+	  - [Unsupervised Abstractive Summarization](#uns-abs-summ)
+	  - [Unsupervised Extractive Summarization](#uns-abs-summ)
+  - [Metrics](#metrics) 
+  
+- [Our Survey](#survey)
+
+
+<a name="fundamentals" />
+
+## Fundamentals
+### Long Document Summarization 
+1. **An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics.** *Huan Yee Koh, Jiaxin Ju, Ming Liu, Shirui Pan.* 2022. `ACM Comput. Surv.`  [paper](https://dl.acm.org/doi/10.1145/3545176)
+2.  **Automatic summarization of scientific articles: A survey** *Nouf Ibrahim Altmami, Mohamed El Bachir Menai.* 2020. `Journal of King Saud University - Computer and Information Sciences` [[paper]](https://www.sciencedirect.com/science/article/pii/S1319157820303554)
+
+### General Automatic Summarization 
+1. **From Standard Summarization to New Tasks and Beyond: Summarization with Manifold Information** *Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan* .2020. `IJCAI` [[paper]](https://arxiv.org/abs/2005.04684)
+2. **Neural Abstractive Text Summarization with Sequence-to-Sequence Models** *Tian Shi, Yaser Keneshloo, Naren Ramakrishnan, Chandan K. Reddy.* 2019. `ACM/IMS Transactions on Data Science` [[paper]](https://arxiv.org/abs/1812.02303)
+3. **Neural Text Summarization: A Critical Evaluation**  *Wojciech Kryściński, Nitish Shirish Keskar, Bryan McCann, Caiming Xiong, Richard Socher.* 2019. `EMNLP` [[paper]](https://arxiv.org/abs/1908.08960)
+4. **Text Summarization Techniques: A Brief Survey** *Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut.* 2017. `IJACSA`[[paper]](https://arxiv.org/abs/1707.02268)
+5. **Recent automatic text summarization techniques: a survey** *Mahak Gambhir, Vishal Gupta.* 2017. `Artif Intell Rev` [[paper]](https://link.springer.com/article/10.1007/s10462-016-9475-9)
+
+<a name="datasets" />
+
+## Long Document Datasets 
+|  **Dataset**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **arXiv**  | 2018 | A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL HLT` [[Paper]](https://arxiv.org/abs/1804.05685) | Scientific |
+|  **PubMed**  | 2018| A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL HLT` [[Paper]](https://arxiv.org/abs/1804.05685)| Scientific |
+| **BigPatent** | 2019 | BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization `ACL` [[Paper]](https://arxiv.org/abs/1906.03741) | Business/Legal |
+| **BillSum** | 2019 | BillSum: A Corpus for Automatic Summarization of US Legislation [[Paper]](https://arxiv.org/abs/1910.00523) | Legislative |
+| **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
+
+<a name="Models" />
+
+## Long Document Models
+
+<a name="abs-summ" />
+
+### Abstractive Summarization 
+
+|  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **Discourse-RNN**  | 2018 |A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL HLT` [[Paper]](https://arxiv.org/abs/1804.05685) | Hierarchical RNN + Sectional Bias |
+|  **Longformer**  | 2020 | Longformer: The Long-Document Transformer [[Paper]](https://arxiv.org/abs/2004.05150) | Transformer + Efficient Attention | 
+| **BigBird** | 2020 | Big Bird: Transformers for Longer Sequences `NeurIPS` [[Paper]](https://arxiv.org/abs/2007.14062) | Transformer + Efficient Attention |
+| **GSUM** | 2021 | GSum: A General Framework for Guided Neural Abstractive Summarization [[Paper]](https://arxiv.org/abs/2010.08014) | Transformer + Signal Guidance |
+|  **CRTLSum**  | 2021 | CTRLsum: Towards Generic Controllable Text Summarization [[Paper]](https://arxiv.org/abs/2012.04281) | Transformer + Prompt Engineering |
+|  **HAT-BART**  | 2021 | Hierarchical Learning for Generation with Long Source Sequences [[Paper]](https://arxiv.org/abs/2104.07545) | Transformer + Hierarchical Attention |
+|  **HEPOS**   | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Transformer + Efficient Attention | 
+
+<a name="ext-summ" />
+
+### Extractive Summarization 
+
+|  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **GL-LSTM**  | 2019 | Extractive Summarization of Long Documents by Combining Global and Local Context `EMNLP-IJCNLP` [[Paper]](https://arxiv.org/abs/1909.08089) | Hierarchical RNN + Sectional Bias |
+|  **Sent-CLF/PTR**  | 2019 | On extractive and abstractive neural document summarization with transformer language models `EMNLP` [[Paper]](https://arxiv.org/abs/1909.03186) | Hierarchical RNN | 
+| **Topic-GraphSum** | 2020 | Enhancing Extractive Text Summarization with Topic-Aware Graph Neural Networks `COLING` [[Paper]](https://arxiv.org/abs/2007.14062) | Graph Attention Network + Topic Modelling |
+| **SSN-DM** | 2021 |  Sliding Selector Network with Dynamic Memory for Extractive Summarization of Long Documents `NAACL` [[Paper]](https://aclanthology.org/2021.naacl-main.470/) | Memory Network |
+
+<a name="hybrid-summ" />
+
+### Hybrid Summarization 
+|  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **TLM+Ext**  | 2019 | Extractive Summarization of Long Documents by Combining Global and Local Context `EMNLP-IJCNLP` [[Paper]](https://arxiv.org/abs/1909.08089) | Extract(RNN)-then-Summarize (Transformer) |
+|  **DANCER**  | 2019 | A Divide-and-Conquer Approach to the Summarization of Long Documents `IEEE/ACM Transactions on Audio, Speech, and Language Processing` [[Paper]](https://arxiv.org/abs/2004.06190) | Summarize Each Section, then Combine | 
+| **SEAL** | 2020 | SEAL: Segment-wise Extractive-Abstractive Long-form Text Summarization [[Paper]](https://arxiv.org/abs/2006.10213) | Segment-wise Scorer |
+| **LoBART** | 2021 |  Long-Span Summarization via Local Attention and Content Selection `ACL` [[Paper]](https://arxiv.org/abs/2105.03801) | Extract(RNN)-then-Summarize (Transformer+Efficient Attention) |
+
+
+<a name="uns-abs-summ" />
+
+### Unsupervised Abstractive Summarization 
+|  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **SciSummPip**  | 2020 | Monash-Summ@LongSumm 20 SciSummPip: An Unsupervised Scientific Paper Summarization Pipeline `Proceedings of the First Workshop on Scholarly Document Processing` [[Paper]](https://aclanthology.org/2020.sdp-1.37/) | Multi-sentence Compression |
+
+<a name="uns-ext-summ" />
+
+### Unsupervised Extractive Summarization 
+|  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **PacSum**  | 2019 | Sentence Centrality Revisited for Unsupervised Summarization `ACL` [[Paper]](https://arxiv.org/abs/1906.03508) | Graph Centrality Scoring |
+|  **HipoRank**  | 2020 | Discourse-Aware Unsupervised Summarization of Long Scientific Documents `EACL` [[Paper]](https://arxiv.org/abs/2005.00513) | Graph Centrality Scoring | 
+| **FAR** | 2021 | Facet-Aware Evaluation for Extractive Summarization `ACL-IJCNLP Findings` [[Paper]](https://aclanthology.org/2021.findings-acl.147/) | Graph Centrality Scoring |
+| **IBsumm** | 2021 | Leveraging Information Bottleneck for Scientific Document Summarization `EMNLP Findings` [[Paper]](https://arxiv.org/abs/2110.01280) | Pipeline Approach |
+
+<a name="Metrics" />
+
+## Metrics 
+
+### Relevance
+|  **Metric**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+|  **ROUGE**  | 2004 | ROUGE: A Package for Automatic Evaluation of Summaries `ACL` [[Paper]](https://aclanthology.org/W04-1013/) | Hard Lexical Matching |
+|  **BERTScore**  | 2019 | BERTScore: Evaluating Text Generation with BERT `ICLR` [[Paper]](https://arxiv.org/abs/1904.09675?context=cs) | Soft Lexical Matching | 
+| **BARTScore** | 2021 | BARTScore: Evaluating Generated Text as Text Generation `NeurIPS` [[Paper]](https://arxiv.org/abs/2106.11520) | Conditional Text Generation |
+
+### Factual Consistency 
+|  **Metric**  | **Year** | **Title**                                       |                          **tl;dr**                           |
+| :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
+| **OpenIE** | 2019 | Assessing The Factual Accuracy of Generated Text `KDD` [[Paper]](https://arxiv.org/abs/1905.13322) | Semantic Matching |
+|  **FactCC**  | 2019 | Evaluating the Factual Consistency of Abstractive Text Summarization `EMNLP` [[Paper]](https://arxiv.org/abs/1910.12840) | Textual Entailment |
+| **FEQA** | 2020 | FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2005.03754) | Question-Answering | 
+|  **QAGS**  | 2020 | Asking and Answering Questions to Evaluate the Factual Consistency of Summaries `ACL` [[Paper]](https://arxiv.org/abs/2004.04228) | Question-Answering | 
+| **TE-MNLI** | 2020 | On Faithfulness and Factuality in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2005.00661) | Textual Entailment | 
+| **BARTScore** | 2021 | BARTScore: Evaluating Generated Text as Text Generation `NeurIPS` [[Paper]](https://arxiv.org/abs/2106.11520) | Conditional Text Generation |
+|  **CoCo** | 2021 | Factual Consistency Evaluation for Text Summarization via Counterfactual Estimation `EMNLP-Findings` [[Paper]](https://arxiv.org/abs/2108.13134) | Causal Inference |
+| **Q^2** | 2021 | Q2: Evaluating Factual Consistency in Knowledge-Grounded Dialogues via Question Generation and Question Answering `EMNLP` [[Paper]](https://aclanthology.org/2021.emnlp-main.619/) | Question-Answering | 
+| **QUAL** | 2021 | Improving Factual Consistency of Abstractive Summarization via Question Answering `ACL-IJCNLP` [[Paper]](https://arxiv.org/abs/2105.04623) | Question-Answering |
+| **SummaC** | 2021 | SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization `TACL` [[Paper]](https://arxiv.org/abs/2111.09525) | Textual Entailment | 
+| **FactGraph** | 2022 | FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations `NAACL` [[Paper]](https://arxiv.org/pdf/2204.06508.pdf) | Knowledge Graph | 
+
+
+<a name="Our Survey Work" />
+
+## An Empirical Survey on Long Document Summarization
+Our survey work has been accepted by ACM Computing Surveys. For more information, please visit [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://dl.acm.org/doi/10.1145/3545176). 
+
+Folders for metrics used to analyze intrinsic characteristics of dataset, metrics used to analyze model outputs and arXiv human annotated data is available. Please do not hesitate to contact me.
+
+```
+@article{10.1145/3545176,
+author = {Koh, Huan Yee and Ju, Jiaxin and Liu, Ming and Pan, Shirui},
+title = {An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics},
+year = {2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3545176},
+doi = {10.1145/3545176},
+note = {Just Accepted},
+journal = {ACM Comput. Surv.},
+month = {jun},
+keywords = {datasets, neural networks, document summarization, language models, Transformer}
+}
+```
+
