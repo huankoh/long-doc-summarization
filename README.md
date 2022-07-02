@@ -43,7 +43,7 @@ A collection of papers and resources across three principal components of long d
 
 <a name="datasets" />
 
-## Long Document Datasets 
+## Datasets 
 |  **Dataset**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
 |  **arXiv**  | 2018 | A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL HLT` [[Paper]](https://arxiv.org/abs/1804.05685) | Scientific |
@@ -54,7 +54,7 @@ A collection of papers and resources across three principal components of long d
 
 <a name="models" />
 
-## Long Document Models
+## Models
 
 <a name="abs-summ" />
 
