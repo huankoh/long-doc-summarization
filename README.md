@@ -1,5 +1,9 @@
 # An Empirical Survey on Long Document Summarization
 
+
+
+![Stars](https://img.shields.io/github/stars/huankoh/long-doc-summarization?color=yellow)
+
 A collection of papers and resources across three principal components of long document summarization: Datasets, Models and Metrics.
 
 **<u>To-do List :running: : <u>**
