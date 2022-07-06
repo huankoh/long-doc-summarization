@@ -58,7 +58,9 @@ A collection of papers and resources across three principal components of long d
 |  **PubMed**  | 2018| A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL` [[Paper]](https://arxiv.org/abs/1804.05685)| Scientific |
 | **BigPatent** | 2019 | BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization `ACL` [[Paper]](https://arxiv.org/abs/1906.03741) | Business/Legal |
 | **BillSum** | 2019 | BillSum: A Corpus for Automatic Summarization of US Legislation [[Paper]](https://arxiv.org/abs/1910.00523) | Legislative |
+| **TLDR** | 2020 | TLDR: Extreme Summarization of Scientific Documents `ACL Findings` [[Paper]](https://arxiv.org/abs/2004.15011) | Scientific | 
 | **CORD-19** | 2020 | CORD-19: The Covid-19 Open Research Dataset `ACL NLP-COVID Workshop` [[Paper]](https://arxiv.org/abs/2004.10706)  | Scientific |
+| **FacetSum** | 2021 | Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents [[Paper]](https://arxiv.org/abs/2106.00130) | Scientific | 
 | **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
 | **BookSum** | 2021 |  BookSum: A Collection of Datasets for Long-form Narrative Summarization [[Paper]](https://arxiv.org/abs/2105.08209) | General Literature |
 
@@ -75,12 +77,15 @@ A collection of papers and resources across three principal components of long d
 |  **Discourse-RNN**  | 2018 |A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents `NAACL` [[Paper]](https://arxiv.org/abs/1804.05685) | Hierarchical RNN + Sectional Bias |
 |  **Longformer**  | 2020 | Longformer: The Long-Document Transformer [[Paper]](https://arxiv.org/abs/2004.05150) | Transformer + Efficient Attention | 
 | **BigBird** | 2020 | Big Bird: Transformers for Longer Sequences `NeurIPS` [[Paper]](https://arxiv.org/abs/2007.14062) | Transformer + Efficient Attention |
+| **FacetSum** | 2021 | Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents [[Paper]](https://arxiv.org/abs/2106.00130) | Transformer + Prompt Engineering | 
 | **GSUM** | 2021 | GSum: A General Framework for Guided Neural Abstractive Summarization [[Paper]](https://arxiv.org/abs/2010.08014) | Transformer + Signal Guidance |
 |  **CRTLSum**  | 2021 | CTRLsum: Towards Generic Controllable Text Summarization [[Paper]](https://arxiv.org/abs/2012.04281) | Transformer + Prompt Engineering |
 |  **HAT-BART**  | 2021 | Hierarchical Learning for Generation with Long Source Sequences [[Paper]](https://arxiv.org/abs/2104.07545) | Transformer + Hierarchical Attention |
 |  **HEPOS**   | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Transformer + Efficient Attention | 
+| **DeepPyramidion** | 2022 | Sparsifying Transformer Models with Trainable Representation Pooling `ACL` [[Paper]](https://arxiv.org/abs/2009.05169) | Transformer + Efficient Attention | 
+| **PRIMERA**| 2022 | PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization `ACL` [[Paper]]() | Transformer + Multi-document Pre-training + Efficient Attention
 | **HIBRIDS** | 2022 | HIBRIDS: Attention with Hierarchical Biases for Structure-aware Long Document Summarization `ACL` [[Paper]](https://arxiv.org/pdf/2203.10741.pdf) | Transformer + Discourse Bias Attention |  
-
+| **LongT5** | 2022 | LongT5: Efficient Text-To-Text Transformer for Long Sequences `NAACL` [[Paper]](https://arxiv.org/abs/2112.07916) | Transformer + Long Document Pre-training + Efficient Attention |  
 
 <a name="ext-summ" />
 
@@ -166,10 +171,11 @@ Papers that provide insightful discussions related to long document summarizatio
 ### Summarization
 |  **Topic**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
-|  **Models+Metrics**  | 2020 | Re-evaluating Evaluation in Text Summarization `EMNLP` [[Paper]](https://arxiv.org/pdf/2010.07100.pdf) | On Effectiveness of Summarization Models and Metrics |
+|  **Metrics**  | 2020 | Re-evaluating Evaluation in Text Summarization `EMNLP` [[Paper]](https://arxiv.org/pdf/2010.07100.pdf) | On Effectiveness of Summarization Models and Metrics |
 | **Models** | 2022 | Faithful or Extractive? On Mitigating the Faithfulness-Abstractiveness Trade-off in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2108.13684) | Findings of abstractiveness v.s. factuality of abstractive models | 
 | **Models** | 2022 | Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2109.09784) | Hallucinated texts (i.e., facts not in doc) often factual | 
-| **Models** | 2022 | Training Dynamics for Text Summarization Models `ACL` [[Paper]](https://arxiv.org/abs/2110.08370) | Fine-tuning affects generation strategies | 
+| **Models** | 2022 | Training Dynamics for Text Summarization Models `ACL` [[Paper]](https://arxiv.org/abs/2110.08370) | Fine-tuning affects generation strategies |
+| **Models** | 2022 | Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data `ACL` [[Paper]](https://arxiv.org/abs/2203.08773) | REtrieving from the traINing datA (REINA) leads to Performance Gain | 
 
 
 ### General 
@@ -177,8 +183,9 @@ Papers that provide insightful discussions related to long document summarizatio
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
 |  **Efficient Attention**  | 2020 | Efficient Transformer: A Survey `ACL` [[Paper]](https://arxiv.org/pdf/2009.06732.pdf) | Practicality of Efficient Attention (section 4.4) |
 | **Fine-tuning** | 2022 | A Closer Look at How Fine-tuning Changes BERT `ACL` [[Paper]](https://aclanthology.org/2022.acl-long.75/) | How Representation Changes after Fine-tuning | 
-|  **Text Generation**  | 2022 | Language modeling via stochastic processes `ICLR` [[Paper]](https://arxiv.org/abs/2203.11370) | Planning to Generate Generate Text via Latent Stochastic Process | 
-| **Scaling Language Model** | 2022 | Improving language models by retrieving from trillions of tokens `ICML` [[Paper]](https://arxiv.org/abs/2112.04426) | Retrieve from Database (Two Trillion Tokens) to Perform General Downstream Tasks | 
+|  **Text Generation**  | 2022 | Language modeling via stochastic processes `ICLR` [[Paper]](https://arxiv.org/abs/2203.11370) | Text Generation via Latent Stochastic Process | 
+| **Efficient Attention** | 2022 | Simple Local Attentions Remain Competitive for Long-Context Tasks `NAACL` [[Paper]](https://arxiv.org/abs/2112.07210) | Local Window Attention remains Competitive |
+| **Scaling Language Model** | 2022 | Improving language models by retrieving from trillions of tokens `ICML` [[Paper]](https://arxiv.org/abs/2112.04426) | Retrieve from Two Trillion Tokens Database, then Generate (See REINA above) | 
 
 <a name="survey" />
 
