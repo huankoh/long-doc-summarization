@@ -8,8 +8,8 @@ A collection of papers and resources across three principal components of long d
 
 **<u>To-do List :running: : <u>**
 
-- [x] Y22 Dataset (Will be updated before: 20/07/22)
-- [ ] Y22 Models (Will be updated before: 20/07/22)
+- [x] Y22 Dataset
+- [x] Y22 Models (ACL and NAACL updated)
 - [ ] Y22 Metrics (Will be updated before: 20/07/22)
 - [ ] Other Settings (Ongoing)
 
@@ -102,12 +102,12 @@ A collection of papers and resources across three principal components of long d
 ### Hybrid Summarization 
 |  **Model**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
-|  **TLM+Ext**  | 2019 | Extractive Summarization of Long Documents by Combining Global and Local Context `EMNLP-IJCNLP` [[Paper]](https://arxiv.org/abs/1909.08089) | Extract(RNN)-then-Summarize (Transformer) |
-|  **DANCER**  | 2019 | A Divide-and-Conquer Approach to the Summarization of Long Documents `IEEE/ACM Transactions on Audio, Speech, and Language Processing` [[Paper]](https://arxiv.org/abs/2004.06190) | Summarize Each Section, then Combine | 
-| **SEAL** | 2020 | SEAL: Segment-wise Extractive-Abstractive Long-form Text Summarization [[Paper]](https://arxiv.org/abs/2006.10213) | End-to-End Extract-then-Summarize |
-| **LoBART** | 2021 |  Long-Span Summarization via Local Attention and Content Selection `ACL` [[Paper]](https://arxiv.org/abs/2105.03801) | Extract(RNN)-then-Summarize (Transformer+Efficient Attention) |
-| **DYLE** | 2022 | DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization `ACL` [[Paper]](https://arxiv.org/abs/2110.08168) | End-to-End Extract-then-Summarize | 
-| **Summ^N** | 2022 | Summ^N: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents `ACL` [[Paper]] | Summarize each Segments, then summarize | 
+|  **TLM+Ext**  | 2019 | Extractive Summarization of Long Documents by Combining Global and Local Context `EMNLP-IJCNLP` [[Paper]](https://arxiv.org/abs/1909.08089) | Extract-then-Summarize |
+|  **DANCER**  | 2019 | A Divide-and-Conquer Approach to the Summarization of Long Documents `IEEE/ACM Transactions on Audio, Speech, and Language Processing` [[Paper]](https://arxiv.org/abs/2004.06190) | Summarize-then-Combine | 
+| **SEAL** | 2020 | SEAL: Segment-wise Extractive-Abstractive Long-form Text Summarization [[Paper]](https://arxiv.org/abs/2006.10213) | Extract-then-Summarize |
+| **LoBART** | 2021 |  Long-Span Summarization via Local Attention and Content Selection `ACL` [[Paper]](https://arxiv.org/abs/2105.03801) | Extract-then-Summarize |
+| **DYLE** | 2022 | DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization `ACL` [[Paper]](https://arxiv.org/abs/2110.08168) | Extract-then-Summarize | 
+| **Summ^N** | 2022 | Summ^N: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents `ACL` [[Paper]](https://aclanthology.org/2022.acl-long.112.pdf) | Summarize-then-Summarize | 
 
 <a name="uns-abs-summ" />
 
@@ -168,7 +168,7 @@ Papers that provide insightful discussions related to long document summarizatio
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
 |  **Models+Metrics**  | 2020 | Re-evaluating Evaluation in Text Summarization `EMNLP` [[Paper]](https://arxiv.org/pdf/2010.07100.pdf) | On Effectiveness of Summarization Models and Metrics |
 | **Models** | 2022 | Faithful or Extractive? On Mitigating the Faithfulness-Abstractiveness Trade-off in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2108.13684) | Findings of abstractiveness v.s. factuality of abstractive models | 
-| **Models** | 2022 | Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2109.09784) | Hallucinated texts (facts not in doc) often factual | 
+| **Models** | 2022 | Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2109.09784) | Hallucinated texts (i.e., facts not in doc) often factual | 
 | **Models** | 2022 | Training Dynamics for Text Summarization Models `ACL` [[Paper]](https://arxiv.org/abs/2110.08370) | Fine-tuning affects generation strategies | 
 
 
