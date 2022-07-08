@@ -40,7 +40,7 @@ A collection of papers and resources across three principal components of long d
 2.  **Automatic summarization of scientific articles: A survey** *Nouf Ibrahim Altmami, Mohamed El Bachir Menai.* 2020. `Journal of King Saud University - Computer and Information Sciences` [[paper]](https://www.sciencedirect.com/science/article/pii/S1319157820303554)
 
 ### General Automatic Summarization 
-1. **From Standard Summarization to New Tasks and Beyond: Summarization with Manifold Information** *Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan* .2020. `IJCAI` [[paper]](https://arxiv.org/abs/2005.04684)
+1. **From Standard Summarization to New Tasks and Beyond: Summarization with Manifold Information** *Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan.* 2020. `IJCAI` [[paper]](https://arxiv.org/abs/2005.04684)
 2. **Neural Abstractive Text Summarization with Sequence-to-Sequence Models** *Tian Shi, Yaser Keneshloo, Naren Ramakrishnan, Chandan K. Reddy.* 2019. `ACM/IMS Transactions on Data Science` [[paper]](https://arxiv.org/abs/1812.02303)
 3. **Neural Text Summarization: A Critical Evaluation**  *Wojciech Kryściński, Nitish Shirish Keskar, Bryan McCann, Caiming Xiong, Richard Socher.* 2019. `EMNLP` [[paper]](https://arxiv.org/abs/1908.08960)
 4. **Text Summarization Techniques: A Brief Survey** *Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut.* 2017. `IJACSA`[[paper]](https://arxiv.org/abs/1707.02268)
@@ -63,6 +63,7 @@ A collection of papers and resources across three principal components of long d
 | **FacetSum** | 2021 | Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents [[Paper]](https://arxiv.org/abs/2106.00130) | Scientific | 
 | **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
 | **BookSum** | 2021 |  BookSum: A Collection of Datasets for Long-form Narrative Summarization [[Paper]](https://arxiv.org/abs/2105.08209) | General Literature |
+| **SCROLLS** | 2022 | SCROLLS: Standardized CompaRison Over Long Language Sequences [[Paper]](https://arxiv.org/abs/2201.03533) | [Leaderboard](https://www.scrolls-benchmark.com/) | 
 
 <a name="models" />
 
@@ -86,6 +87,7 @@ A collection of papers and resources across three principal components of long d
 | **PRIMERA**| 2022 | PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization `ACL` [[Paper]]() | Transformer + Multi-document Pre-training + Efficient Attention
 | **HIBRIDS** | 2022 | HIBRIDS: Attention with Hierarchical Biases for Structure-aware Long Document Summarization `ACL` [[Paper]](https://arxiv.org/pdf/2203.10741.pdf) | Transformer + Discourse Bias Attention |  
 | **LongT5** | 2022 | LongT5: Efficient Text-To-Text Transformer for Long Sequences `NAACL` [[Paper]](https://arxiv.org/abs/2112.07916) | Transformer + Long Document Pre-training + Efficient Attention |  
+| **ECC** | 2022 | Improving the Faithfulness of Abstractive Summarization via Entity Coverage Control `NAACL Findings` [[Paper]](https://arxiv.org/abs/2207.02263) | Transformer + Factuality-Aware Fine-tuning | 
 
 <a name="ext-summ" />
 
@@ -136,6 +138,8 @@ A collection of papers and resources across three principal components of long d
 
 ## Metrics
 
+Metrics listed below are not specific to long document summarization (most summarization metrics are studied under a short/normal summarization setting).
+
 <a name="rel" />
 
 ### Relevance
@@ -151,16 +155,21 @@ A collection of papers and resources across three principal components of long d
 |  **Metric**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
 | **OpenIE** | 2019 | Assessing The Factual Accuracy of Generated Text `KDD` [[Paper]](https://arxiv.org/abs/1905.13322) | Semantic Matching |
-|  **FactCC**  | 2019 | Evaluating the Factual Consistency of Abstractive Text Summarization `EMNLP` [[Paper]](https://arxiv.org/abs/1910.12840) | Textual Entailment |
+|  **FactCC**  | 2019 | Evaluating the Factual Consistency of Abstractive Text Summarization `EMNLP` [[Paper]](https://arxiv.org/abs/1910.12840) | Data Augmentation + Textual Entailment |
+| **DAE** | 2020 | Evaluating Factuality in Generation with Dependency-level Entailment `EMNLP Findings` [[Paper]](https://arxiv.org/abs/2010.05478) | Textual Entailment | 
 | **FEQA** | 2020 | FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2005.03754) | Question-Answering | 
 |  **QAGS**  | 2020 | Asking and Answering Questions to Evaluate the Factual Consistency of Summaries `ACL` [[Paper]](https://arxiv.org/abs/2004.04228) | Question-Answering | 
 | **TE-MNLI** | 2020 | On Faithfulness and Factuality in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2005.00661) | Textual Entailment | 
 | **BARTScore** | 2021 | BARTScore: Evaluating Generated Text as Text Generation `NeurIPS` [[Paper]](https://arxiv.org/abs/2106.11520) | Conditional Text Generation |
-|  **CoCo** | 2021 | Factual Consistency Evaluation for Text Summarization via Counterfactual Estimation `EMNLP-Findings` [[Paper]](https://arxiv.org/abs/2108.13134) | Causal Inference |
+|  **CoCo** | 2021 | Factual Consistency Evaluation for Text Summarization via Counterfactual Estimation `EMNLP Findings` [[Paper]](https://arxiv.org/abs/2108.13134) | Causal Inference |
 | **Q^2** | 2021 | Q2: Evaluating Factual Consistency in Knowledge-Grounded Dialogues via Question Generation and Question Answering `EMNLP` [[Paper]](https://aclanthology.org/2021.emnlp-main.619/) | Question-Answering | 
 | **QUAL** | 2021 | Improving Factual Consistency of Abstractive Summarization via Question Answering `ACL-IJCNLP` [[Paper]](https://arxiv.org/abs/2105.04623) | Question-Answering |
 | **SummaC** | 2021 | SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization `TACL` [[Paper]](https://arxiv.org/abs/2111.09525) | Textual Entailment | 
 | **FactGraph** | 2022 | FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations `NAACL` [[Paper]](https://arxiv.org/pdf/2204.06508.pdf) | Knowledge Graph | 
+| **FalseSum** | 2022 | Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2205.06009) | Data Augmentation + Textual Entailment | 
+| **QAFactEval** | 2022 | QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization `NAACL` [[Paper]](https://arxiv.org/pdf/2112.08542.pdf) | Question-Answering | 
+| **MFMA** | 2022 | Masked Summarization to Generate Factually Inconsistent Summaries for Improved Factual Consistency Checking `NAACL Findings` [[Paper]](https://arxiv.org/abs/2205.02035) | Data Augmentation + Textual Entailment |
+
 
 <a name="insights" />
 
@@ -176,12 +185,14 @@ Papers that provide insightful discussions related to long document summarizatio
 | **Models** | 2022 | Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2109.09784) | Hallucinated texts (i.e., facts not in doc) often factual | 
 | **Models** | 2022 | Training Dynamics for Text Summarization Models `ACL` [[Paper]](https://arxiv.org/abs/2110.08370) | Fine-tuning affects generation strategies |
 | **Models** | 2022 | Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data `ACL` [[Paper]](https://arxiv.org/abs/2203.08773) | REtrieving from the traINing datA (REINA) leads to Performance Gain | 
-
+| **Models** | 2022 | Characterizing the Efficiency vs. Accuracy Trade-off for Long-Context NLP Models `ACL` [[Paper]]() | Model Efficiency (Training Cost; Train/Inference Speed) vs. Performance | 
+| **Models** | 2022 | FactPEGASUS: Factuality-Aware Pre-training and Fine-tuning for Abstractive Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2205.07830) | Factuality-Aware PEGASUS Pre-training | 
+| **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | On Summarization Dataset Creation | 
 
 ### General 
 |  **Topic**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
-|  **Efficient Attention**  | 2020 | Efficient Transformer: A Survey `ACL` [[Paper]](https://arxiv.org/pdf/2009.06732.pdf) | Practicality of Efficient Attention (section 4.4) |
+|  **Efficient Attention**  | 2020 | Efficient Transformer: A Survey `ACM Comput. Surv.` [[Paper]](https://arxiv.org/pdf/2009.06732.pdf) | Practicality of Efficient Attention (section 4.4) |
 | **Fine-tuning** | 2022 | A Closer Look at How Fine-tuning Changes BERT `ACL` [[Paper]](https://aclanthology.org/2022.acl-long.75/) | How Representation Changes after Fine-tuning | 
 |  **Text Generation**  | 2022 | Language modeling via stochastic processes `ICLR` [[Paper]](https://arxiv.org/abs/2203.11370) | Text Generation via Latent Stochastic Process | 
 | **Efficient Attention** | 2022 | Simple Local Attentions Remain Competitive for Long-Context Tasks `NAACL` [[Paper]](https://arxiv.org/abs/2112.07210) | Local Window Attention remains Competitive |
