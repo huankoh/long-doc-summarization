@@ -181,6 +181,7 @@ Papers that provide insightful discussions related to long document summarizatio
 |  **Topic**  | **Year** | **Title**                                       |                          **tl;dr**                           |
 | :--------: |:---- | :----------------------------------------------------------- | :----------------------------------------------------------: |
 |  **Metrics**  | 2020 | Re-evaluating Evaluation in Text Summarization `EMNLP` [[Paper]](https://arxiv.org/pdf/2010.07100.pdf) | On Effectiveness of Summarization Models and Metrics |
+| **Models** | 2022 | DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization `ACL` [[Paper]](https://arxiv.org/abs/2110.08168) | Insighful Approach+Discussion into Extract-then-Summarize Models | 
 | **Models** | 2022 | Faithful or Extractive? On Mitigating the Faithfulness-Abstractiveness Trade-off in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2108.13684) | Findings of abstractiveness v.s. factuality of abstractive models | 
 | **Models** | 2022 | Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization `ACL` [[Paper]](https://arxiv.org/abs/2109.09784) | Hallucinated texts (i.e., facts not in doc) often factual | 
 | **Models** | 2022 | Training Dynamics for Text Summarization Models `ACL` [[Paper]](https://arxiv.org/abs/2110.08370) | Fine-tuning affects generation strategies |
