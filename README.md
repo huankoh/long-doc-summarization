@@ -10,7 +10,7 @@ A collection of papers and resources across three principal components of long d
 
 - [x] Y22 Dataset
 - [x] Y22 Models (ACL and NAACL updated)
-- [ ] Y22 Metrics (Will be updated before: 20/07/22)
+- [x] Y22 Metrics (ACL and NAACL updated)
 - [ ] Other Settings (Ongoing)
 
 ## Contents
