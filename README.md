@@ -9,8 +9,8 @@ A collection of papers and resources across three principal components of long d
 **<u>To-do List :running: : <u>**
 
 - [x] Y22 Dataset
-- [x] Y22 Models (ACL and NAACL updated)
-- [x] Y22 Metrics (ACL and NAACL updated)
+- [x] Y22 Models (EMNLP to be updated soon!)
+- [x] Y22 Metrics (EMNLP to be updated soon!)
 - [ ] Other Settings (Ongoing)
 
 ## Contents
@@ -189,6 +189,7 @@ Papers that provide insightful discussions related to long document summarizatio
 | **Models** | 2022 | Characterizing the Efficiency vs. Accuracy Trade-off for Long-Context NLP Models `ACL` [[Paper]]() | Model Efficiency (Training Cost; Train/Inference Speed) vs. Performance | 
 | **Models** | 2022 | FactPEGASUS: Factuality-Aware Pre-training and Fine-tuning for Abstractive Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2205.07830) | Factuality-Aware PEGASUS Pre-training | 
 | **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | On Summarization Dataset Creation | 
+| **Models** | 2022 | Are Abstractive Summarization Models truly ‘Abstractive’? [[Paper]](https://www.amazon.science/publications/are-abstractive-summarization-models-truly-abstractive-an-empirical-study-to-compare-the-two-forms-of-summarization) | On Abstractiveness of Abstractive Model |
 
 ### General 
 |  **Topic**  | **Year** | **Title**                                       |                          **tl;dr**                           |
