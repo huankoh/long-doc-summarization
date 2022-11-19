@@ -88,6 +88,7 @@ A collection of papers and resources across three principal components of long d
 | **HIBRIDS** | 2022 | HIBRIDS: Attention with Hierarchical Biases for Structure-aware Long Document Summarization `ACL` [[Paper]](https://arxiv.org/pdf/2203.10741.pdf) | Transformer + Discourse Bias Attention |  
 | **LongT5** | 2022 | LongT5: Efficient Text-To-Text Transformer for Long Sequences `NAACL` [[Paper]](https://arxiv.org/abs/2112.07916) | Transformer + Long Document Pre-training + Efficient Attention |  
 | **ECC** | 2022 | Improving the Faithfulness of Abstractive Summarization via Entity Coverage Control `NAACL Findings` [[Paper]](https://arxiv.org/abs/2207.02263) | Transformer + Factuality-Aware Fine-tuning | 
+| **PEGASUS-X** | 2022 | Investigating Efficiently Extending Transformers for Long Input Summarization [[Paper]](https://arxiv.org/pdf/2208.04347v1) | Transformer + Efficient Attention | 
 
 <a name="ext-summ" />
 
