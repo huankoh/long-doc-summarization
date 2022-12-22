@@ -8,9 +8,9 @@ A collection of papers and resources across three principal components of long d
 
 **<u>To-do List :running: : <u>**
 
-- [x] Y22 Dataset
-- [x] Y22 Models (EMNLP updates in progress!) 
-- [x] Y22 Metrics (EMNLP updates in progress!)
+- [x] Y22 Dataset (EMNLP updates in progress!) 
+- [ ] Y22 Models (EMNLP updates in progress!) 
+- [ ] Y22 Metrics (EMNLP updates in progress!)
 - [ ] Other Settings (Ongoing)
 
 ## Contents
