@@ -9,8 +9,8 @@ A collection of papers and resources across three principal components of long d
 **<u>To-do List :running: : <u>**
 
 - [x] Y22 Dataset
-- [x] Y22 Models (EMNLP to be updated soon!)
-- [x] Y22 Metrics (EMNLP to be updated soon!)
+- [x] Y22 Models (EMNLP updates in progress!) 
+- [x] Y22 Metrics (EMNLP updates in progress!)
 - [ ] Other Settings (Ongoing)
 
 ## Contents
@@ -64,6 +64,7 @@ A collection of papers and resources across three principal components of long d
 | **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
 | **BookSum** | 2021 |  BookSum: A Collection of Datasets for Long-form Narrative Summarization [[Paper]](https://arxiv.org/abs/2105.08209) | General Literature |
 | **SCROLLS** | 2022 | SCROLLS: Standardized CompaRison Over Long Language Sequences [[Paper]](https://arxiv.org/abs/2201.03533) | [Leaderboard](https://www.scrolls-benchmark.com/) | 
+| **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way `EMNLP` [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | On Summarization Dataset Creation | 
 
 <a name="models" />
 
@@ -139,7 +140,7 @@ A collection of papers and resources across three principal components of long d
 
 ## Metrics
 
-Metrics listed below are not specific to long document summarization (most summarization metrics are studied under a short/normal summarization setting).
+Metrics listed below are not specific to long document summarization (most summarization metrics are studied under a short/normal summarization setting). Our EMNLP 2022 work investigated these metrics under long document setting: [How Far are We from Robust Long Abstractive Summarization?](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.172/)
 
 <a name="rel" />
 
@@ -189,8 +190,8 @@ Papers that provide insightful discussions related to long document summarizatio
 | **Models** | 2022 | Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data `ACL` [[Paper]](https://arxiv.org/abs/2203.08773) | REtrieving from the traINing datA (REINA) leads to Performance Gain | 
 | **Models** | 2022 | Characterizing the Efficiency vs. Accuracy Trade-off for Long-Context NLP Models `ACL` [[Paper]]() | Model Efficiency (Training Cost; Train/Inference Speed) vs. Performance | 
 | **Models** | 2022 | FactPEGASUS: Factuality-Aware Pre-training and Fine-tuning for Abstractive Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2205.07830) | Factuality-Aware PEGASUS Pre-training | 
-| **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | On Summarization Dataset Creation | 
 | **Models** | 2022 | Are Abstractive Summarization Models truly ‘Abstractive’? [[Paper]](https://www.amazon.science/publications/are-abstractive-summarization-models-truly-abstractive-an-empirical-study-to-compare-the-two-forms-of-summarization) | On Abstractiveness of Abstractive Model |
+| **Metrics** | 2022 | How Far are We from Robust Long Abstractive Summarization? [[Paper]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.172/) | On Metrics under Long Document Summarization Setting | 
 
 ### General 
 |  **Topic**  | **Year** | **Title**                                       |                          **tl;dr**                           |
