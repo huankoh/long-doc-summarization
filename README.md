@@ -64,7 +64,7 @@ A collection of papers and resources across three principal components of long d
 | **GovReport** | 2021 | Efficient Attentions for Long Document Summarization `NAACL` [[Paper]](https://arxiv.org/abs/2104.02112) | Legislative |
 | **BookSum** | 2021 |  BookSum: A Collection of Datasets for Long-form Narrative Summarization [[Paper]](https://arxiv.org/abs/2105.08209) | General Literature |
 | **SCROLLS** | 2022 | SCROLLS: Standardized CompaRison Over Long Language Sequences [[Paper]](https://arxiv.org/abs/2201.03533) | [Leaderboard](https://www.scrolls-benchmark.com/) | 
-| **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way `EMNLP` [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | On Summarization Dataset Creation | 
+| **Dataset** | 2022 | SQuALITY: Building a Long-Document Summarization Dataset the Hard Way `EMNLP` [[Paper]](https://arxiv.org/pdf/2205.11465.pdf) | Question-focused Summarization | 
 
 <a name="models" />
 
