@@ -8,7 +8,7 @@ A collection of papers and resources across three principal components of long d
 
 **<u> Updates <u>**
 
-The advent of large language models (LLMs) as foundational models has shown that [LLMs](https://arxiv.org/abs/2303.18223) can seemingly perform a limitless range of tasks, including long document summarization. Nonetheless, we believe significant performance gaps remain when dealing with long texts. 
+Large language models [(LLMs)](https://arxiv.org/abs/2303.18223) can seemingly perform a limitless range of tasks, including long document summarization. Nonetheless, we believe significant performance gaps remain when dealing with long texts. 
 
 We suggest the following two papers for potential insights:
 
@@ -17,7 +17,7 @@ We suggest the following two papers for potential insights:
 
 We maintain that the work conducted on long document summarization thus far remains highly relevant. Practitioners can draw lessons from this research to overcome the challenges arising from long texts. 
 
-Going forward, we intend to periodically update this repository for its ongoing relevance in the current era of LLMs.
+Going forward, we intend to periodically update this repository for its ongoing relevance in the current era of LLMs. Stay tuned!
 
 ## Contents
 
