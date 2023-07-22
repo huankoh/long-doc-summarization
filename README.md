@@ -8,12 +8,16 @@ A collection of papers and resources across three principal components of long d
 
 **<u> Updates <u>**
 
-The advent of large language models (LLMs) as foundational models has shown that [LLMs](https://arxiv.org/abs/2303.18223) can seemingly perform a limitless range of tasks, including long document summarization. Nonetheless, we believe significant performance gaps remain when dealing with long texts. We suggest the following two papers for potential insights:
+The advent of large language models (LLMs) as foundational models has shown that [LLMs](https://arxiv.org/abs/2303.18223) can seemingly perform a limitless range of tasks, including long document summarization. Nonetheless, we believe significant performance gaps remain when dealing with long texts. 
 
-- **How LLMs Perform on Long Texts.** Lost in the Middle: How Language Models Use Long Contexts [[Paper]]([https://dl.acm.org/doi/10.1145/3545176](https://arxiv.org/abs/2307.03172)). Despite the buzzy headlines boasting of a 100K or 1B input length limit, one must question the models' actual performance. It would be of limited utility if a model could accept unlimited input (e.g., RNN) but could not effectively reason from it. To address these uncertainties, the paper provides in-depth experiments, yielding numerous insights into the actual capabilities of these models.
-- **How LLMs Can Benefit from Knowledge Graph.** Unifying Large Language Models and Knowledge Graphs: A Roadmap [[Paper]](https://arxiv.org/abs/2306.08302). Although this paper does not specifically address long document summarization, we believe it is highly relevant for addressing the limitations of LLMs across a broad range of tasks, including long document summarization.
+We suggest the following two papers for potential insights:
 
-We maintain that the work conducted on long document summarization thus far remains highly relevant. Practitioners can draw lessons from this research to overcome the challenges arising from long texts. Going forward, we intend to periodically update this repository for its ongoing relevance in the current era of LLMs.
+- **Lost in the Middle: How Language Models Use Long Contexts** [[Paper]](https://arxiv.org/abs/2307.03172). Despite the buzzy headlines boasting of a 100K or 1B input length limit, one must question the models' actual performance. It would be of limited utility if a model could accept unlimited input (e.g., RNN) but could not effectively reason from it. The paper provides in-depth experiments, yielding numerous insights into the actual capabilities of these models.
+- **Unifying Large Language Models and Knowledge Graphs: A Roadmap** [[Paper]](https://arxiv.org/abs/2306.08302). Although it does not specifically discuss long document summarization, we believe it is highly relevant for addressing the limitations of LLMs across a broad range of tasks.
+
+We maintain that the work conducted on long document summarization thus far remains highly relevant. Practitioners can draw lessons from this research to overcome the challenges arising from long texts. 
+
+Going forward, we intend to periodically update this repository for its ongoing relevance in the current era of LLMs.
 
 ## Contents
 
