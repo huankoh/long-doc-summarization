@@ -220,14 +220,13 @@ Folders for metrics used to analyze intrinsic characteristics of dataset, metric
 author = {Koh, Huan Yee and Ju, Jiaxin and Liu, Ming and Pan, Shirui},
 title = {An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics},
 year = {2022},
+month = {jun},
 publisher = {Association for Computing Machinery},
+journal = {ACM Comput. Surv.},
 address = {New York, NY, USA},
 issn = {0360-0300},
 url = {https://doi.org/10.1145/3545176},
 doi = {10.1145/3545176},
-note = {Just Accepted},
-journal = {ACM Comput. Surv.},
-month = {jun},
 keywords = {datasets, neural networks, document summarization, language models, Transformer}
 }
 ```
